@@ -1,0 +1,33 @@
+body{
+  background-color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+.nixe{
+position: absolute;
+margin-top:180px;
+margin-left: 10px;
+ background-image: url('Mesa de trabajo.png');
+ background-position: 0 0;
+ width: 160px;
+ height: 240px;
+ 
+ animation : nixe 5s steps(48, end) infinite ;
+}
+@keyframes nixe{
+    to{ background-position: -7680px 0;
+    }
+}
+.back{
+    margin-top:360px;
+    margin-left:55px;
+    background-image: url('Mesa de trabajo4.png');
+    width: 240px;
+    height:  60px;
+    animation : LOADING 1s steps(3, end) infinite ;
+}
+@keyframes LOADING{
+    to{ background-position: -720px 0;
+    }
+}
